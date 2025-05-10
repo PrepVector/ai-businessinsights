@@ -1,0 +1,52 @@
+{
+    "data_quality_assessment": {
+        "category": "Data Quality Assessment",
+        "questions": [
+            "What percentage of missing values exist in the dataset?",
+            "Are there any duplicate rows in the dataset?",
+            "Are the data types of each column consistent with their expected types?",
+            "Are there any outliers in the categorical columns?",
+            "What is the distribution of missing values across different columns?"
+        ]
+    },
+    "statistical_summary": {
+        "category": "Statistical Summary",
+        "questions": [
+            "What is the distribution of cpu_usage and how does it relate to failure_event?",
+            "What is the correlation between memory_usage and disk_usage?",
+            "What is the average uptime_days for servers with high server_load?",
+            "What is the median predictive_risk for servers with high temperature?",
+            "What is the standard deviation of fan_speed across different locations?"
+        ]
+    },
+    "outlier_detection": {
+        "category": "Outlier Detection",
+        "questions": [
+            "What are the top 5 outliers in cpu_usage and how do they relate to failure_event?",
+            "What are the bottom 5 outliers in memory_usage and how do they relate to disk_usage?",
+            "What are the top 5 outliers in uptime_days and how do they relate to server_load?",
+            "What are the top 5 outliers in predictive_risk and how do they relate to temperature?",
+            "What are the top 5 outliers in fan_speed and how do they relate to location?"
+        ]
+    },
+    "feature_relationships": {
+        "category": "Feature Relationships",
+        "questions": [
+            "What is the correlation between cpu_usage and memory_usage?",
+            "What is the correlation between disk_usage and network_latency?",
+            "What is the correlation between temperature and fan_speed?",
+            "What is the correlation between uptime_days and server_load?",
+            "What is the correlation between predictive_risk and failure_event?"
+        ]
+    },
+    "pattern_trend_anomalies": {
+        "category": "Pattern Trend Anomalies",
+        "questions": [
+            "What is the trend of cpu_usage over time and how does it relate to failure_event?",
+            "What is the seasonality of memory_usage and how does it relate to disk_usage?",
+            "What is the trend of uptime_days over time and how does it relate to server_load?",
+            "What is the anomaly in predictive_risk over time and how does it relate to temperature?",
+            "What is the trend of fan_speed over time and how does it relate to location?"
+        ]
+    }
+}
